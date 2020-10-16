@@ -1,5 +1,5 @@
 # dbDemo.io
-A simple CRUD demo powered by LAMP, found at https://dbdemo.io
+A simple CRUD demo interface powered by PHP and MySQL, found at https://dbdemo.io
 
 ## Highlight Reel
 * Create - https://dbdemo.io/new.php
