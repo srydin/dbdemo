@@ -16,8 +16,8 @@ class DB_OPS {
         $this->memo = $args['memo'] ?? NULL;
     }
     public function create_sql(){
-        $timestamp = mt_rand(1, time());
-        $randomDate = date("Y-m-d", $timestamp);
+        $timestamp = mt_rand(1, time()); // serves as an example for invoice date
+        $randomDate = date("Y-m-d", $timestamp); // formatted in a way that works with this demo
         return "INSERT INTO " . OBJECT_TABLE . " VALUES (NULL, '$this->client','$this->amount','$this->memo','$randomDate')";
     }
     public function edit_sql(){
