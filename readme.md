@@ -6,3 +6,5 @@ A simple CRUD demo interface powered by PHP and MySQL, found at https://dbdemo.i
 * Read - https://dbdemo.io/
 * Update - https://dbdemo.io/edit.php?ID=13
 * Delete - https://dbdemo.io/delete.php?ID=13
+
+* Check out /private/includes/db.php to see the way a web app can write SQL for you
